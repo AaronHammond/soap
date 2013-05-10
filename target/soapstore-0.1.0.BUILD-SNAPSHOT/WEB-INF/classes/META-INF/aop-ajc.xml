@@ -1,0 +1,43 @@
+<aspectj>
+<aspects>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Product_Roo_JavaBean"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.web.CartController_Roo_Controller_Json"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Line_Roo_ToString"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Line_Roo_JavaBean"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.CartOrder_Roo_Jpa_Entity"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Cart_Roo_Finder"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Line_Roo_Finder"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.web.ProductController_Roo_Controller_Json"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.ProductFulfillment_Roo_ToString"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Product_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Cart_Roo_Configurable"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Line_Roo_Configurable"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Product_Roo_Json"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Line_Roo_Json"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.web.ProductFulfillmentController_Roo_Controller_Json"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Product_Roo_Configurable"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.CartOrder_Roo_JavaBean"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.CartOrder_Roo_ToString"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Cart_Roo_ToString"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Cart_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Cart_Roo_Json"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Product_Roo_Jpa_Entity"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.web.LineController_Roo_Controller_Json"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Cart_Roo_Jpa_Entity"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.CartOrder_Roo_Configurable"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.web.CartOrderController_Roo_Controller_Json"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Product_Roo_ToString"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Cart_Roo_JavaBean"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Product_Roo_Finder"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.ProductFulfillment_Roo_Jpa_Entity"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.CartOrder_Roo_Json"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.ProductFulfillment_Roo_JavaBean"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.CartOrder_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.ProductFulfillment_Roo_Json"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.ProductFulfillment_Roo_Configurable"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Line_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.Line_Roo_Jpa_Entity"/>
+<aspect name="com.tracyshandmadesoaps.soapstore.domain.ProductFulfillment_Roo_Jpa_ActiveRecord"/>
+</aspects>
+</aspectj>
+

@@ -1,0 +1,32 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-05-07 17:48:10
+project --topLevelPackage com.tracyshandmadesoaps.soapstore
+jpa setup --provider HIBERNATE --database MYSQL
+entity jpa --class ~.domain.Line
+field string --fieldName name --notNull
+field string --fieldName ingredients --notNull
+entity jpa --class ~.domain.Product
+field string --fieldName name --notNull
+field string --fieldName description --notNull
+field reference --fieldName line --type ~.domain.Line
+entity jpa --class ~.domain.ProductFulfillment
+field reference --fieldName product --type ~.domain.Product
+field number --fieldName quantity --type java.lang.Integer
+entity jpa --class ~.domain.Cart
+field set --fieldName products --type ~.domain.ProductFulfillment
+field string --fieldName ownerSessionId
+// [failed] field string --fieldName ownerSessionId --notNull
+field date --fieldName created --type java.util.Date --persistenceType JPA_TIMESTAMP
+// [failed] entity jpa --class ~.domain.Order
+entity jpa --class ~.domain.CartOrder
+field set --type ~.domain.ProductFulfillment --fieldName fulfillments
+field string --fieldName token --notNull
+field number --fieldName price --type java.math.BigDecimal
+web mvc setup
+web mvc all --package ~.web
+json all
+web mvc json all
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-05-08 16:35:09
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-05-10 13:37:50
+quit
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-05-10 13:38:45
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-05-10 13:38:49
